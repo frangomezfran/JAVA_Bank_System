@@ -6,7 +6,7 @@
 **Tomando como punto de partida el diagrama de Clases del sistema de Gestión Bancaria construya una aplicación que
 permita realizar las siguientes operaciones:
 
-**MENU PRINCIPAL
+**MENU PRINCIPAL**
 1) Agregar Cliente
 2) Agregar cuenta a Cliente
 3) Listar Clientes por sucursal
@@ -17,13 +17,13 @@ permita realizar las siguientes operaciones:
 8) Realizar transferencias
 9) Eliminar una sucursal
 
-**MENU CLIENTE-CUENTA
+**MENU CLIENTE-CUENTA**
 1) Alta de Caja de Ahorro en Pesos
 2) Alta de Caja de Ahorro en dólares
 3) Alta de Cuenta Corriente en Pesos
 4) Alta de Cuenta Corriente en dólares
 
-**PAUTAS: 
+**PAUTAS:**
 1) El alta de un cliente comprende también:
    a. Dar de alta una cuenta o más de una.
 2) El agregar cuenta a Cliente implica dar de alta una cuenta nueva solicitada por el cliente.
@@ -33,11 +33,12 @@ permita realizar las siguientes operaciones:
 5) Las transferencias pueden ser entre cuentas del mismo cliente o a cuentas de terceros.
 6) Las transacciones monetarias se realizan sobre las cuentas del cliente.
 
-**-------------------------------------------------------------------------------------------------------------------------
+**-------------------------------------------------------------------------------------------------------------------------**
+## Aclaración:
 
-### Este proyecto es un ejercicio principalmente para ejercitar la programación en capas en Java y conectar una Base de
-### datos al mismo por lo tanto en el progreso del sistema, me surgen diferentes conflictos que se pueden generar a
-### futuro y quiero enlistarlos
+**Este proyecto es un ejercicio principalmente para ejercitar la programación en capas en Java y conectar una Base de
+datos al mismo por lo tanto en el progreso del sistema, me surgen diferentes conflictos que se pueden generar a
+futuro y quiero enlistarlos**
 
 En este momento estoy haciendo el DER y el UML
 - Según los tipos de bancos que existen las cuentas que ofrecen tienen diferentes tipos
