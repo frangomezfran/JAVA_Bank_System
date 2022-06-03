@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Banco {
 
-    private Integer idBanco;//Me lo da la BD
+    private Integer idBanco;
     private String nombre;
     private Date fechaInicio;
 

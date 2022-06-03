@@ -10,38 +10,6 @@ import servicios.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- * aplicación que permita realizar las siguientes operaciones:
- * **********MENU PRINCIPAL**********
- * 1) Agregar Cliente
- * 2) Agregar cuenta a Cliente
- * 3) Listar Clientes por sucursal
- * 4) Listar Clientes de una sucursal
- * 5) Extraer dinero
- * 6) Consultar Saldo
- * 7) Realizar Deposito
- * 8) Realizar transferencias
- * 9) Eliminar una sucursal
- * **********MENU CLIENTE-CUENTA**********
- * 1) Alta de Caja de Ahorro en Pesos
- * 2) Alta de Caja de Ahorro en dólares
- * 3) Alta de Cuenta Corriente en Pesos
- * 4) Alta de Cuenta Corriente en dólares
- * PAUTAS:
- * 1) El alta de un cliente comprende también:
- * a. Dar de alta una cuenta o más de una.
- * 2) El agregar cuenta a Cliente implica dar de alta una cuenta nueva solicitada por el cliente.
- * 3) El banco debe tener al menos una sucursal, que deben estar predefinidas antes de iniciar la ejecución de su programa.
- * 4) Para poder eliminar una sucursal, el banco debe tener al menos dos sucursales de tal forma que la cartera de clientes
- * y empleados de la sucursal a eliminar se pase a la otra sucursal.
- * 5) Las transferencias pueden ser entre cuentas del mismo cliente o a cuentas de terceros.
- * 6) Las transacciones monetarias se realizan sobre las cuentas del cliente.
- *
- *
- * REGLAS DE NEGOCIO QUE TOME Y QUE EJERCICIO NO PUEDO HACER AL PIE DE LA LETRA
- * - El empleado NO tiene cuentas, pero el empleado se puede hacer cliente -> Pauta 4)
- */
-
 public class SistemaBancario {
 
     private IBancoServicio bancoServicio;

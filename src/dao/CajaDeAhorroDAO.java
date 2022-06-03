@@ -1,7 +1,6 @@
 package dao;
 
 import modelos.CajaDeAhorro;
-import modelos.CuentaCorriente;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

@@ -2,8 +2,11 @@ package dao;
 
 import modelos.Banco;
 
-
 import java.util.List;
+
+/**
+ * @author Franco Gomez
+ */
 
 public interface IBancoDAO {
 

@@ -1,7 +1,5 @@
 package dao;
 
-import modelos.CajaDeAhorro;
-import modelos.Cliente;
 import modelos.CuentaCorriente;
 
 import java.sql.ResultSet;

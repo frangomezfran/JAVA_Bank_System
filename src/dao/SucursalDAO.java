@@ -1,6 +1,5 @@
 package dao;
 
-import modelos.Banco;
 import modelos.Sucursal;
 
 import java.sql.ResultSet;
@@ -10,8 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SucursalDAO implements ISucursalDAO{
-
-    //private Conexion conexion;
 
     public SucursalDAO(){
         //this.conexion= new Conexion();

@@ -1,8 +1,6 @@
 package dao;
 
 import modelos.Banco;
-import modelos.Cuenta;
-import modelos.Sucursal;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
