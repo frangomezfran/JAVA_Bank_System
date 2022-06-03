@@ -1,8 +1,8 @@
-drop database Bank_System;
+drop database sistema_bancario;
 
-create database Bank_System;
+create database sistema_bancario;
 
-use Bank_System;
+use sistema_bancario;
 
 create table Banco(
 	id_banco INT NOT NULL AUTO_INCREMENT,

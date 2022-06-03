@@ -4,7 +4,8 @@ import java.sql.*;
 
 public class Conexion {
 
-    private static final String DRIVER = "com.mysql.jdbc.Driver"; //Puede ser profe que tenga que agregar .cj
+    //Puede ser profe que tenga que agregar 'cj.' luego de mysql.
+    private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String USER = "root";
     private static final String PASS = "";
     private static final String URL = "jdbc:mysql://localhost:3306/sistema_bancario";

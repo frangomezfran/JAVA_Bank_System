@@ -59,8 +59,6 @@ sean unicas
 - En la lista de Clientes y luego de Empleados de las sucursales, podria tener una lista de Personas y luego saber q tipo de persona es cada una con metodos
 
 Cosas pendientes:
-- Comentar cada metodo y clases en las interfaces
 - Ver los cierres de la conexion con la BD
 - Modularizar existeIdSucursalPorBanco en SucursalServicio, para que haya un solo metodo
-- Usar el .gitignore
 - Mi libreria no tiene la carpeta .cj es la que utilizo para el Driver de la BD
