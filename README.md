@@ -1,10 +1,10 @@
 
 # Proyecto Aplicación de un Sistema Bancario
 
-### Consigna:
+## Consigna
 
 **Tomando como punto de partida el diagrama de Clases del sistema de Gestión Bancaria construya una aplicación que
-permita realizar las siguientes operaciones:
+permita realizar las siguientes operaciones:**
 
 **MENU PRINCIPAL**
 1) Agregar Cliente
@@ -34,7 +34,7 @@ permita realizar las siguientes operaciones:
 6) Las transacciones monetarias se realizan sobre las cuentas del cliente.
 
 **-------------------------------------------------------------------------------------------------------------------------**
-## Aclaración:
+## Aclaración
 
 **Este proyecto es un ejercicio principalmente para ejercitar la programación en capas en Java y conectar una Base de
 datos al mismo por lo tanto en el progreso del sistema, me surgen diferentes conflictos que se pueden generar a
@@ -67,7 +67,7 @@ sean únicas
 - En la lista de Clientes y luego de Empleados de las sucursales, podría tener una lista de Personas y luego saber q
  tipo de persona es cada una con métodos
 
-### Cosas pendientes:
+### Cosas pendientes
 - Ver los cierres de la conexión con la BD
 - Modularizar existeIdSucursalPorBanco en SucursalServicio, para que haya un solo método
 - Mi librería no tiene la carpeta .cj, es la que utilizo para el Driver de la BD
