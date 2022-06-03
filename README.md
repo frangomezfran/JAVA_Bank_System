@@ -33,7 +33,6 @@ permita realizar las siguientes operaciones:**
 5) Las transferencias pueden ser entre cuentas del mismo cliente o a cuentas de terceros.
 6) Las transacciones monetarias se realizan sobre las cuentas del cliente.
 
-**-------------------------------------------------------------------------------------------------------------------------**
 ## Aclaración
 
 **Este proyecto es un ejercicio principalmente para ejercitar la programación en capas en Java y conectar una Base de
