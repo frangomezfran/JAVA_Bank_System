@@ -10,12 +10,6 @@ public class Banco {
 
     public Banco(){}
 
-    public Banco(Integer idBanco, String nombre, Date fechaInicio) {
-        this.idBanco = idBanco;
-        this.nombre = nombre;
-        this.fechaInicio = fechaInicio;
-    }
-
     public Integer getIdBanco() {
         return idBanco;
     }
@@ -39,5 +33,4 @@ public class Banco {
     public void setFechaInicio(Date fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
-
 }

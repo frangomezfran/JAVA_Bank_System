@@ -12,10 +12,10 @@ public class Conexion {
     private static Connection CON = null;
 
     /**
-     * Este metodo verifica si el atributo CON fue instanciado
-     * si no lo fué, lo hace solo una vez
+     * Este metodo verifica si la Connection fue instanciada
+     * si no lo fué, la instancia y la devuelve
      * si fue instanciada la devuelve
-     * @return me retorna la conexion inicilizada una vez por cada tabla
+     * @return me retorna la conexion inicilizada una vez en todoo el proyecto
      */
     public static Connection GetConnection(){
 
@@ -30,6 +30,5 @@ public class Conexion {
 
         return CON;
     }
-
 
 }

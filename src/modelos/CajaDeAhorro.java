@@ -8,11 +8,6 @@ public class CajaDeAhorro extends Cuenta{
         super();
     }
 
-    public CajaDeAhorro(Integer nroCuenta, Cliente duenio, Long cbu, String clave, Double balancePesos, Double balanceDolares) {
-        super(nroCuenta, duenio, cbu, clave, balancePesos);
-        this.balanceDolares = balanceDolares;
-    }
-
     public Double getBalanceDolares() {
         return balanceDolares;
     }

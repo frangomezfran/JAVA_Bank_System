@@ -9,12 +9,6 @@ public class CuentaCorriente extends Cuenta{
         super();
     }
 
-    public CuentaCorriente(Integer nroCuenta, Cliente duenio, Long cbu, String clave, Double balancePesos, Double saldoDeudor, Double salarioPorMes) {
-        super(nroCuenta, duenio, cbu, clave, balancePesos);
-        this.saldoDeudor = saldoDeudor;
-        this.salarioPorMes = salarioPorMes;
-    }
-
     public Double getSaldoDeudor() {
         return saldoDeudor;
     }

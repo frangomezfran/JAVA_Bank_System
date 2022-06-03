@@ -5,17 +5,10 @@ import modelos.Banco;
 import java.util.List;
 
 /**
+ * Esta clase es la encargada de traerme los datos de Banco de mi Base de datos
  * @author Franco Gomez
  */
-
 public interface IBancoDAO {
-
-    /**
-     * Este metodo me retorna un banco por el ID pasado por parametro
-     * @param idBanco id del banco a buscar
-     * @return
-     */
-    Banco dameBancoPorId(Integer idBanco);
 
     /**
      * Este metodo me retorna en una lista todos los bancos que existen en mi BD

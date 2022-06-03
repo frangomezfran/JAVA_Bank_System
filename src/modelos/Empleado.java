@@ -8,11 +8,6 @@ public class Empleado extends Persona{
         super();
     }
 
-    public Empleado(String nombre, String apellido, Long dni, String domicilio, String telefono, Integer cuil, Integer idSucursal, Double salario) {
-        super(nombre, apellido, dni, domicilio, telefono, cuil, idSucursal);
-        this.salario = salario;
-    }
-
     public Double getSalario() {
         return salario;
     }

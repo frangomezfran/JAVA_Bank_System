@@ -12,13 +12,13 @@ import java.util.Scanner;
 
 public class SistemaBancario {
 
-    private IBancoServicio bancoServicio;
-    private IClienteServicio clienteServicio;
-    private ISucursalServicio sucursalServicio;
-    private ICuentaServicio cuentaServicio;
-    private ICajaDeAhorroServicio cajaDeAhorroServicio;
-    private ICuentaCorrienteServicio cuentaCorrienteServicio;
-    private IEmpleadoServicio empleadoServicio;
+    private final IBancoServicio bancoServicio;
+    private final IClienteServicio clienteServicio;
+    private final ISucursalServicio sucursalServicio;
+    private final ICuentaServicio cuentaServicio;
+    private final ICajaDeAhorroServicio cajaDeAhorroServicio;
+    private final ICuentaCorrienteServicio cuentaCorrienteServicio;
+    private final IEmpleadoServicio empleadoServicio;
 
     public SistemaBancario(){
         this.bancoServicio = new BancoServicio();
@@ -40,6 +40,7 @@ public class SistemaBancario {
         }
 
     }
+
 
     public static int pideNumeroEnteroConRango(int primerNumero, int ultimoNumero){
 
@@ -179,6 +180,17 @@ public class SistemaBancario {
         return aValidar;
     }
 
+    public static void limpiaConsola(){
+        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSistema Bancario [Franco Gomez]\n");
+    }
+
+    public static void presioneParaContinuar(){
+        Scanner input = new Scanner (System.in);
+        System.out.print("\nPresione Enter para continuar ");
+        input.nextLine();
+    }
+
+
     public Cliente crearCliente(Integer nroSucursal){
 
         Cliente clienteNuevo = new Cliente();
@@ -192,16 +204,6 @@ public class SistemaBancario {
         clienteNuevo.setIdSucursal(nroSucursal);
 
         return clienteNuevo;
-    }
-
-    public static void limpiaConsola(){
-        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSistema Bancario [Franco Gomez]\n");
-    }
-
-    public static void presioneParaContinuar(){
-        Scanner input = new Scanner (System.in);
-        System.out.print("\nPresione Enter para continuar ");
-        input.nextLine();
     }
 
     public void agregarCliente(){
